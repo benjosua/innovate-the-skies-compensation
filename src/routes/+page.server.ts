@@ -229,8 +229,11 @@ export const load: PageServerLoad = async () => {
 
 	// Live API fallback
 	if (!env.LH_CLIENT_ID || !env.LH_CLIENT_SECRET) {
-		const { mockClaims } = await import('$lib/mockData');
-		return { claims: mockClaims };
+		throw new Error(
+			'No Lufthansa API credentials configured. Please run:\n' +
+				'  npx tsx scripts/seed-claims.ts\n' +
+				'or set LH_CLIENT_ID and LH_CLIENT_SECRET environment variables.'
+		);
 	}
 
 	const today = new Date().toISOString().slice(0, 10);
@@ -283,9 +286,12 @@ export const load: PageServerLoad = async () => {
 
 		return { claims };
 	} catch (err) {
-		console.error('LH API error, falling back to static mock data:', err);
-		const { mockClaims } = await import('$lib/mockData');
-		return { claims: mockClaims };
+		console.error('LH API error:', err);
+		throw new Error(
+			'Failed to fetch live data. Please run:\n' +
+				'  npx tsx scripts/seed-claims.ts\n' +
+				'to generate seeded data from the Lufthansa API.'
+		);
 	}
 };
 
