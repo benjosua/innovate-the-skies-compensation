@@ -1,0 +1,175 @@
+{
+  "seededAt": "2026-02-28T15:33:27.707Z",
+  "claims": [
+    {
+      "id": "CASE-2026-0901",
+      "receivedAt": "2026-02-28T15:23:27.706Z",
+      "passenger": "Müller, Andreas",
+      "pnr": "D70NZY",
+      "slaBreached": true,
+      "status": "pending",
+      "rawEmail": "From: andreas.mueller@example.de\nSubject: Compensation Claim - Flight EW1178 - 2026-02-28\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight EW1178 on 2026-02-28.\n\nMy booking reference is D70NZY. I was scheduled to depart DUS\nat 06:50 and arrive at DUS. The flight arrived approximately -155 minutes late at DUS, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nAndreas Müller",
+      "flightStatus": {
+        "flightNumber": "EW1178",
+        "overallStatus": "Flight Diverted",
+        "overallStatusCode": "DV",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0902",
+      "receivedAt": "2026-02-28T14:58:27.706Z",
+      "passenger": "Schmidt, Petra",
+      "pnr": "KP0V9T",
+      "slaBreached": false,
+      "status": "pending",
+      "rawEmail": "From: p.schmidt@webmail.com\nSubject: Compensation Claim - Flight EW1150 - 2026-02-28\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight EW1150 on 2026-02-28.\n\nMy booking reference is KP0V9T. I was scheduled to depart BER\nat 07:15 and arrive at BER. The flight arrived approximately 2 minutes late at BER, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nPetra Schmidt",
+      "flightStatus": {
+        "flightNumber": "EW1150",
+        "overallStatus": "Flight Diverted",
+        "overallStatusCode": "DV",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0903",
+      "receivedAt": "2026-02-28T14:33:27.707Z",
+      "passenger": "Johnson, Claire",
+      "pnr": "KD52PY",
+      "slaBreached": false,
+      "status": "pending",
+      "rawEmail": "From: claire.j@globalmail.io\nSubject: Compensation Claim - Flight 4Y1331 - 2026-02-26\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight 4Y1331 on 2026-02-26.\n\nMy booking reference is KD52PY. I was scheduled to depart KEF\nat 15:10 and arrive at MUC. The flight arrived approximately 23 hours and 19 minutes late at MUC, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nClaire Johnson",
+      "flightStatus": {
+        "flightNumber": "4Y1331",
+        "overallStatus": "Flight Landed",
+        "overallStatusCode": "LD",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0904",
+      "receivedAt": "2026-02-28T14:08:27.707Z",
+      "passenger": "Novak, Jan",
+      "pnr": "SO6UNL",
+      "slaBreached": true,
+      "status": "pending",
+      "rawEmail": "From: jan.novak@posta.cz\nSubject: Compensation Claim - Flight LX1050 - 2026-02-27\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight LX1050 on 2026-02-27.\n\nMy booking reference is SO6UNL. I was scheduled to depart BRE\nat 10:05 and arrive at HAM. The flight arrived approximately 6 minutes late at HAM, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nJan Novak",
+      "flightStatus": {
+        "flightNumber": "LX1050",
+        "overallStatus": "Flight Diverted",
+        "overallStatusCode": "DV",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0905",
+      "receivedAt": "2026-02-28T13:43:27.707Z",
+      "passenger": "Ferreira, Sofia",
+      "pnr": "VBYMK4",
+      "slaBreached": false,
+      "status": "pending",
+      "rawEmail": "From: sofia.ferreira@correio.pt\nSubject: Compensation Claim - Flight CA935 - 2026-02-26\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight CA935 on 2026-02-26.\n\nMy booking reference is VBYMK4. I was scheduled to depart PVG\nat 11:10 and arrive at FRA. The flight arrived approximately 3 hours and 1 minutes late at FRA, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nSofia Ferreira",
+      "flightStatus": {
+        "flightNumber": "CA935",
+        "overallStatus": "Flight Landed",
+        "overallStatusCode": "LD",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0906",
+      "receivedAt": "2026-02-28T13:18:27.707Z",
+      "passenger": "Dubois, Lucas",
+      "pnr": "BQR1BS",
+      "slaBreached": false,
+      "status": "pending",
+      "rawEmail": "From: ldubois@france.fr\nSubject: Compensation Claim - Flight LH133 - 2026-02-26\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight LH133 on 2026-02-26.\n\nMy booking reference is BQR1BS. I was scheduled to depart STR\nat 11:05 and arrive at FRA. The flight arrived approximately 3 hours and 44 minutes late at FRA, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nLucas Dubois",
+      "flightStatus": {
+        "flightNumber": "LH133",
+        "overallStatus": "Flight Landed",
+        "overallStatusCode": "LD",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0907",
+      "receivedAt": "2026-02-28T12:53:27.707Z",
+      "passenger": "Rossi, Giulia",
+      "pnr": "KBK26P",
+      "slaBreached": true,
+      "status": "pending",
+      "rawEmail": "From: giulia.rossi@italia.it\nSubject: Compensation Claim - Flight LH1319 - 2026-02-25\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight LH1319 on 2026-02-25.\n\nMy booking reference is KBK26P. I was scheduled to depart ALG\nat 02:55 and arrive at FRA. The flight arrived approximately 15 hours and 6 minutes late at FRA, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nGiulia Rossi",
+      "flightStatus": {
+        "flightNumber": "LH1319",
+        "overallStatus": "Flight Landed",
+        "overallStatusCode": "LD",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0908",
+      "receivedAt": "2026-02-28T12:28:27.707Z",
+      "passenger": "Kim, Min-jun",
+      "pnr": "EYCV6K",
+      "slaBreached": false,
+      "status": "pending",
+      "rawEmail": "From: mj.kim@seoul.kr\nSubject: Compensation Claim - Flight EW7581 - 2026-02-25\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight EW7581 on 2026-02-25.\n\nMy booking reference is EYCV6K. I was scheduled to depart PMI\nat 10:00 and arrive at HAM. The flight arrived approximately 4 hours and 8 minutes late at HAM, well beyond the 3-hour threshold for statutory compensation under EU261.\n\nGiven the arrival delay exceeded 3 hours, I am entitled to compensation of €600 under Article 7 of EU Regulation 261/2004.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nMin-jun Kim",
+      "flightStatus": {
+        "flightNumber": "EW7581",
+        "overallStatus": "Flight Landed",
+        "overallStatusCode": "LD",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — Delay > 3 hours",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0909",
+      "receivedAt": "2026-02-28T12:03:27.707Z",
+      "passenger": "Müller, Andreas",
+      "pnr": "3F7IDL",
+      "slaBreached": false,
+      "status": "pending",
+      "rawEmail": "From: andreas.mueller@example.de\nSubject: Compensation Claim - Flight LH104 - 2026-02-28\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight LH104 on 2026-02-28.\n\nMy booking reference is 3F7IDL. I was scheduled to depart FRA\nat 12:15 and arrive at MUC. The flight was cancelled without adequate notice, causing me to miss onward connections and pre-paid arrangements at my destination.\n\nAs the flight was cancelled, I am entitled to a full refund or re-routing and statutory compensation under Article 7.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nAndreas Müller",
+      "flightStatus": {
+        "flightNumber": "LH104",
+        "overallStatus": "Flight Cancelled",
+        "overallStatusCode": "CD",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — CANCELLATION",
+        "compensationAmount": 600
+      }
+    },
+    {
+      "id": "CASE-2026-0910",
+      "receivedAt": "2026-02-28T11:38:27.707Z",
+      "passenger": "Schmidt, Petra",
+      "pnr": "QJRREG",
+      "slaBreached": true,
+      "status": "pending",
+      "rawEmail": "From: p.schmidt@webmail.com\nSubject: Compensation Claim - Flight EW9761 - 2026-02-28\n\nDear Lufthansa Customer Relations,\n\nI am writing to formally request compensation under EU Regulation 261/2004\nfor the disruption I experienced on flight EW9761 on 2026-02-28.\n\nMy booking reference is QJRREG. I was scheduled to depart ZRH\nat 08:40 and arrive at DUS. The flight was cancelled without adequate notice, causing me to miss onward connections and pre-paid arrangements at my destination.\n\nAs the flight was cancelled, I am entitled to a full refund or re-routing and statutory compensation under Article 7.\n\nI have attached my boarding pass and booking confirmation for your review.\n\nYours sincerely,\nPetra Schmidt",
+      "flightStatus": {
+        "flightNumber": "EW9761",
+        "overallStatus": "Flight Cancelled",
+        "overallStatusCode": "CD",
+        "eu261Eligible": true,
+        "eu261Verdict": "EU261 ELIGIBLE — CANCELLATION",
+        "compensationAmount": 600
+      }
+    }
+  ]
+}

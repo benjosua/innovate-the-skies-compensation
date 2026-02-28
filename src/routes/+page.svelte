@@ -231,11 +231,11 @@ Lufthansa Customer Relations`;
 									<span class="rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[10px] text-slate-500">
 										{fs.overallStatusCode}
 									</span>
-									{#if fs.legs[1]?.varianceMinutes > 0}
+									{#if fs.legs?.[1]?.varianceMinutes > 0}
 										<span class="rounded bg-amber-50 px-1.5 py-0.5 font-mono text-[10px] text-amber-700">
 											{fs.legs[1].varianceLabel}
 										</span>
-									{:else if fs.legs[1]?.varianceMinutes < 0}
+									{:else if fs.legs?.[1]?.varianceMinutes < 0}
 										<span class="rounded bg-green-50 px-1.5 py-0.5 font-mono text-[10px] text-green-700">
 											{fs.legs[1].varianceLabel}
 										</span>
@@ -412,7 +412,7 @@ Lufthansa Customer Relations`;
 										</tr>
 									</thead>
 									<tbody>
-										{#each fs.legs as leg}
+										{#each (fs.legs ?? []) as leg}
 											<tr class="border-b border-slate-100">
 												<td class="py-2 font-medium text-slate-700">{leg.label}</td>
 												<td class="py-2 font-mono text-slate-600">{leg.scheduled}</td>
