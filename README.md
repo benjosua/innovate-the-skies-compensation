@@ -1,6 +1,6 @@
-![Banner](banner.png)
+> Built and won 3rd place 🥉 during **Hamburg Hackathon: Innovate the Skies & Beyond** by [Social Developers Club](https://socialdevelopersclub.de/)
 
-> Built during **Hamburg Hackathon: Innovate the Skies & Beyond** by [Social Developers Club](https://socialdevelopersclub.de/)
+![Banner](banner.png)
 
 # EU261 Claims Processing Platform
 
